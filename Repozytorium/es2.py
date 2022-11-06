@@ -46,4 +46,5 @@ for x in range (3):
    n = input("Podaj nazwe : ")
    zwierzeta.append(n)
 
+zwierzeta.sort()
 print (zwierzeta)
