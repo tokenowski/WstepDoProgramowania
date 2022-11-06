@@ -42,9 +42,11 @@ print (zestaw1_2)
 '''
 
 zwierzeta = []
-for x in range (3):
+for x in range (7):
    n = input("Podaj nazwe : ")
    zwierzeta.append(n)
 
 zwierzeta.sort()
 print (zwierzeta)
+
+print(zwierzeta[-0]+zwierzeta[-1]+zwierzeta[-2]+zwierzeta[-3])
