@@ -47,6 +47,15 @@ print(D)
 #         sample_dict.pop(k)
 # print(sample_dict)
 
-for k in L:
-    print(sample_dict.pop(k, 'Brak pary o danym kluczu'))
+# for k in L:
+#     print(sample_dict.pop(k, 'Brak pary o danym kluczu'))
+
+if 'Jones' in sample_dict.values():
+    print("Wystepuje")
+else: print('Brak')
+
+sample_dict['location'] = sample_dict['city']
+del sample_dict['location']
+# sample_dict['location'] = sample_dict.pop('city', None)
+
 print(sample_dict)
